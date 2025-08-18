@@ -1,0 +1,24 @@
+Java Throwable class is the root class in the hierarchy. It
+Splits into Error and Exception
+a. java.lang.Error - Error represents irrecoverable conditions such as Java
+virtual machine (JVM) running out of memory, memory leaks, stack
+overflow errors, library incompatibility, infinite recursion, etc.
+b. java.lang.Exception - Exceptions can be caught and handled by the
+program.
+I. When an exception occurs, it creates an object. This object is called the
+exception object.
+Ii. It contains information about the exception such as the name and
+description of the exception and the state of the program when the
+exception occurred.
+
+- The Exception class is further divided into
+RuntimeException which are Unchecked Exceptions and Checked Exceptions like
+IOException.
+a. java.lang.RuntimeException: These exceptions are raised during runtime due
+to programming errors. They are not checked at compile time and hence are also
+called unchecked exceptions. Some examples are
+I. Improper use of an API - IllegalArgumentException
+ii. Null pointer access (missing the initialization of a variable) -
+NullPointerException
+iii. Out-of-bounds array access - ArrayIndexOutOfBoundsException
+Iv. Dividing a number by 0 - ArithmeticException
