@@ -4,19 +4,98 @@ This repository contains Java programs and exercises for SRM Semester 3 – Java
 week.
 
 =============================REPOSITORY STRUCTURE=================================
-.
+C:.
+│   .gitignore
+│   LICENSE
+│   README.md
+│
 ├── Weeks
 │   ├── Week 1
 │   │   ├── Homework
+│   │   │       Anagram.java
+│   │   │       BMI.java
+│   │   │       NonRepeatingCharacters.java
+│   │   │       Pallindrome.java
+│   │   │       UniqueCharacters.java
+│   │   │
 │   │   ├── Lab
+│   │   │       RockPaperScissors.java
+│   │   │       StudentVoter.java
+│   │   │       StringLength.java
+│   │   │       VowelConsonant.java
+│   │   │       CustomTrim.java
+│   │   │       CharacterType.java
+│   │   │
 │   │   ├── Notes
+│   │   │   ├── Basics
+│   │   │   │       StringCreation.java
+│   │   │   │       EscapeSequence.java
+│   │   │   │
+│   │   │   ├── Exception Handling
+│   │   │   │       ArithmeticExceptionProgram.java
+│   │   │   │       FileNotFoundExceptionProgram.java
+│   │   │   │       IOExceptionProgram.java
+│   │   │   │
+│   │   │   ├── Methods
+│   │   │   │       StringMethods.java
+│   │   │   │       StringProcessor.java
+│   │   │   │
+│   │   │   ├── String Array
+│   │   │   │       ArrayCreation.java
+│   │   │   │       ArrayOperations.java
+│   │   │   │       SortingArray.java
+│   │   │   │
+│   │   │   └── String Input
+│   │   │           BufferedReaderProgram.java
+│   │   │           ScannerProgram.java
+│   │   │           Program1.java
+│   │   │           Program2.java
+│   │   │
 │   │   └── Problems
+│   │           StringArrays.java
+│   │           StringManipulation.java
+│   │           TextProcessor.java
+│   │
 │   └── Week 2
 │       ├── Assignment-HW
+│       │       CustomCSVFormatter.java
+│       │       CustomPasswordStrengthCalculator.java
+│       │       CustomSpellChecker.java
+│       │       CustomTextBasedFileOrganizer.java
+│       │       CustomTextBasedMathematicalCalculator.java
+│       │       CustomTextCompressionAlgorithm.java
+│       │
 │       ├── Lab
+│       │       CustomASCIICaseConvertor.java
+│       │       CustomEmailAnalyzer.java
+│       │       CustomReplace.java
+│       │       CustomStringTester.java
+│       │       CustomTextJustifier.java
+│       │       SubstitutionCipher.java
+│       │
 │       ├── Notes
+│       │       BuiltInStrings.java
+│       │
 │       └── Practise Problems
+│               ASCIIProcessor.java
+│               StringBuiltInMethods.java
+│               StringManipulation.java
+│               StringPerformanceComparison.java
+│
 └── Word Documents
+        Week 1 - S1 - Assignment HW Solution.docx
+        Week 1 - S1 - Assignment HW Solution.pdf
+        Week 1 - S1 - Lab Practise Problem Solution.docx
+        Week 1 - S1 - Lab Practise Problem Solution.pdf
+        Week 1 - S1 - Practice Problem Solution.docx
+        Week 1 - S1 - Practice Problem Solution.pdf
+        Week 2 - S2 - Lab Practise Problem Solution.docx
+        Week 2 - S2 - Lab Practise Problem Solution.pdf
+        Week 2 - S2 - Practice Problem Solution.docx
+        Week 2 - S2 - Practice Problem Solution.pdf
+        Week 2 - S2 - Assignment HW Solution.docx
+        Week 2 - S2 - Assignment HW Solution.pdf
+
 
 ------------------Weeks Directory---------------------
 
