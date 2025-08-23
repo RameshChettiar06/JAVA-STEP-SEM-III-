@@ -1,4 +1,4 @@
-/*Problem 7: Write a program to calculate the strength of a password
+/*Problem 2: Write a program to calculate the strength of a password
 Hint =>
 a. Take user input for a password string
 b. Check for different criteria:

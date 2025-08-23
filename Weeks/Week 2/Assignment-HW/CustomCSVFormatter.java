@@ -22,9 +22,6 @@ e. Create a method using StringBuilder to format output:
 ● iii. Format numeric values with proper decimal places
 ● iv. Highlight data quality issues
 f. Create a method to generate data summary report:
-
-5
-
 ● i. Show total records processed
 ● ii. Display column-wise statistics
 ● iii. List data quality findings

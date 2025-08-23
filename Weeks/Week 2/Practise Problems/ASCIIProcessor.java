@@ -45,12 +45,6 @@ public class ASCIIProcessor {
         String reconstructed = asciiToString(asciiArr);
         System.out.println("Reconstructed String: " + reconstructed);
 
-        // TODO: Implement a simple Caesar cipher using ASCII manipulation
-        System.out.print("\nEnter shift value for Caesar Cipher: ");
-        int shift = scanner.nextInt();
-        String ciphered = caesarCipher(str, shift);
-        System.out.println("Ciphered Text: " + ciphered);
-
         scanner.close();
     }
 
@@ -73,25 +67,6 @@ public class ASCIIProcessor {
         } else {
             return ch;
         }
-    }
-
-    // TODO: Method to implement Caesar cipher
-    public static String caesarCipher(String text, int shift) {
-        // Shift each letter by 'shift' positions in ASCII
-        StringBuilder result = new StringBuilder();
-
-        for (char ch : text.toCharArray()) {
-            if (Character.isUpperCase(ch)) {
-                char c = (char) ((ch - 'A' + shift + 26) % 26 + 'A');
-                result.append(c);
-            } else if (Character.isLowerCase(ch)) {
-                char c = (char) ((ch - 'a' + shift + 26) % 26 + 'a');
-                result.append(c);
-            } else {
-                result.append(ch);
-            }
-        }
-        return result.toString();
     }
 
     // TODO: Method to create ASCII table for a range
