@@ -1,3 +1,7 @@
+# ===================== #
+#   Java Project Ignore #
+# ===================== #
+
 # Compiled class files
 *.class
 
@@ -10,7 +14,7 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files
+# Package archives
 *.jar
 *.war
 *.nar
@@ -33,24 +37,25 @@ bin/
 # VS Code
 .vscode/
 
-# Mac OS
+# macOS
 .DS_Store
 
 # Windows
 Thumbs.db
+Desktop.ini
 
-# Others
+# Swap / temp files
 *.swp
 *.swo
+*.tmp
+*.bak
 
-# Documents
+# Documents (keep repo clean of binaries)
 *.pdf
 *.docx
 *.doc
 *.odt
 
-# Temporary files
-*.tmp
-*.bak
-*.swp
+# Others
+*.class~
 
