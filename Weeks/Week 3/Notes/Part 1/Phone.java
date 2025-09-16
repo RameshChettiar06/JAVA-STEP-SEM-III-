@@ -14,7 +14,7 @@ public class Phone {
         model = phoneModel;
         color = phoneColor;
         batteryLevel = 100; // New phone comes fully charged
-        System.out.println("📱 New " + brand + " " + model + " created!");
+        System.out.println(" New " + brand + " " + model + " created!");
     }
 
     // ========== METHODS (Behaviors) ==========
@@ -22,40 +22,40 @@ public class Phone {
     public void makeCall(String number) {
         if (batteryLevel > 5) {
             batteryLevel -= 5;
-            System.out.println("📞 Calling " + number + "...");
+            System.out.println(" Calling " + number + "...");
             System.out.println("Battery: " + batteryLevel + "%");
         } else {
-            System.out.println("🔋 Battery too low to make call!");
+            System.out.println("Battery too low to make call!");
         }
     }
 
     public void sendMessage(String message) {
         if (batteryLevel > 2) {
             batteryLevel -= 2;
-            System.out.println("💬 Message sent: " + message);
+            System.out.println(" Message sent: " + message);
             System.out.println("Battery: " + batteryLevel + "%");
         } else {
-            System.out.println("🔋 Battery too low to send message!");
+            System.out.println("Battery too low to send message!");
         }
     }
 
     public void playMusic() {
         if (batteryLevel > 10) {
             batteryLevel -= 10;
-            System.out.println("🎵 Playing music...");
+            System.out.println("Playing music...");
             System.out.println("Battery: " + batteryLevel + "%");
         } else {
-            System.out.println("🔋 Battery too low to play music!");
+            System.out.println("Battery too low to play music!");
         }
     }
 
     public void chargeBattery() {
         batteryLevel = 100;
-        System.out.println("⚡ Phone fully charged! Battery: 100%");
+        System.out.println("Phone fully charged! Battery: 100%");
     }
 
     public void showPhoneInfo() {
-        System.out.println("📱 === Phone Information ===");
+        System.out.println("=== Phone Information ===");
         System.out.println("Brand: " + brand);
         System.out.println("Model: " + model);
         System.out.println("Color: " + color);
