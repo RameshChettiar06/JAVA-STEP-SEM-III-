@@ -2,7 +2,7 @@ Java Step Programs – SRM Semester 3
 
 This repository contains Java programs and exercises for SRM Semester 3 – Java Step course. It includes homework, lab exercises, notes, and practice problems organized by
 week.
-
+```
 =============================REPOSITORY STRUCTURE=================================
 C:.
 │   .gitignore
